@@ -1,0 +1,31 @@
+{
+    "files": [
+        "1word.ui",
+        "add_pet.ui",
+        "appnt_pet.ui",
+        "between_2_d.ui",
+        "cancel_appoint.ui",
+        "dbui.py",
+        "docs_menu1.ui",
+        "docs_menu2.ui",
+        "empl_reg.ui",
+        "for_users.ui",
+        "form.ui",
+        "form_1.ui",
+        "form_2.ui",
+        "log_menu.ui",
+        "mm_doc.ui",
+        "mm_emp.ui",
+        "mm_user.ui",
+        "queries.ui",
+        "query_for_admin.ui",
+        "reg_empl.ui",
+        "reg_type.ui",
+        "reg_user.ui",
+        "sp_menu.ui",
+        "stress_test.ui",
+        "user_reg.ui",
+        "word_n_dates.ui",
+        "y_n_m.ui"
+    ]
+}

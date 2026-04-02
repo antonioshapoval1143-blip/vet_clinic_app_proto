@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1108</width>
+    <height>548</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>80</y>
+     <width>791</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Shape::Box</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Shadow::Sunken</enum>
+   </property>
+   <attribute name="horizontalHeaderCascadingSectionResizes">
+    <bool>false</bool>
+   </attribute>
+   <row/>
+   <column>
+    <property name="text">
+     <string>ID пацієнта</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Кличка</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Вид</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Порода</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Вік(років)</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Вага(кг)</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Власник </string>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string>000001</string>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>false</kerning>
+     </font>
+    </property>
+   </item>
+   <item row="0" column="1">
+    <property name="text">
+     <string>Шеррі</string>
+    </property>
+   </item>
+   <item row="0" column="2">
+    <property name="text">
+     <string>Кіт</string>
+    </property>
+   </item>
+   <item row="0" column="3">
+    <property name="text">
+     <string>Тайська</string>
+    </property>
+   </item>
+   <item row="0" column="4">
+    <property name="text">
+     <string>4</string>
+    </property>
+   </item>
+   <item row="0" column="5">
+    <property name="text">
+     <string>4</string>
+    </property>
+   </item>
+   <item row="0" column="6">
+    <property name="text">
+     <string>Шаповал Антон Олексійович</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>170</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Додати дані</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>70</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Таблиці з даними</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>240</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Видалити дані</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>90</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Пацієнти</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
