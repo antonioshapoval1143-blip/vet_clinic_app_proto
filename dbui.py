@@ -44,7 +44,7 @@ class DBUI(QWidget):
 
         self.db = QSqlDatabase.addDatabase('QODBC')
         self.db.setDatabaseName(
-            'DRIVER={MySQL ODBC 8.0 Unicode Driver};SERVER=localhost;DATABASE=vet_clinic;UID=root;PWD=1111;PORT=3812;'             # у SERVER записати ip локальної мережі, яку ви використали у ODBC Data Sources
+            'DRIVER={MySQL ODBC 8.0 Unicode Driver};SERVER=localhost;DATABASE=vet_clinic;UID=root;PWD=1111;PORT=3812;'
         )
         # self.db.setDatabaseName(
         #     'DRIVER={MySQL ODBC 8.0 Unicode Driver};SERVER=25.44.219.6;DATABASE=vet_clinic;UID=ubuntu_root;PWD=1111;PORT=3812;'             # у SERVER записати ip локальної мережі, яку ви використали у ODBC Data Sources
